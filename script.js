@@ -20,9 +20,9 @@ function createListElement() {
 	let doneButton=document.createElement("button");
 	let deleteButton=document.createElement("button");
 	doneButton.appendChild(document.createTextNode("Done"));
-	doneButton.classList.add("Button");
+	doneButton.classList.add("buttonp");
 	deleteButton.appendChild(document.createTextNode("Remove"));
-	deleteButton.classList.add("Button");
+	deleteButton.classList.add("buttonp");
 	li.appendChild(doneButton);
 	li.appendChild(deleteButton);
 	doneButton.addEventListener("click", MarkasDone);
