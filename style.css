@@ -1,4 +1,6 @@
-
+body{
+  background: linear-gradient(to right, rgb(172, 164, 42), rgb(16, 44, 55));
+}
 .coolTitle {
   font-family: 'Oswald', Helvetica, sans-serif;
   font-size: 40px;
@@ -23,8 +25,24 @@
 #first{
   font-style: oblique;
 }
-.Button {
+.buttonp {
   background-color: #a0829b;
-  color: #fff;
-  border-radius: 30px
+  color: black;
+  border-radius: 7px;
+}
+.buttonp:hover {
+  background-color: black; 
+  color: #a0829b;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor:pointer;
+}
+
+#userinput{
+  width: 25%;
+  background-color: rgb(182, 206, 182);
+  padding: 14px 10px;
+  margin: 8px 5px;
+}
+::placeholder{
+  color: #008040;
 }
