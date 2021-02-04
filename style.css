@@ -29,12 +29,14 @@ body{
   background-color: #a0829b;
   color: black;
   border-radius: 7px;
+  font-family: Gadugi;
 }
 .buttonp:hover {
   background-color: black; 
   color: #a0829b;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   cursor:pointer;
+  font-family: Times new roman;
 }
 
 #userinput{
@@ -42,7 +44,19 @@ body{
   background-color: rgb(182, 206, 182);
   padding: 14px 10px;
   margin: 8px 5px;
+  border-radius: 15px;
 }
 ::placeholder{
-  color: #008040;
+  font-family: Helvetica;
+  color: rgb(52, 76, 76);
+}
+
+ul li {
+  font-family: Garamond;
+  font-weight: bold; 
+  background: linear-gradient(to right, rgb(172, 164, 42), rgb(16, 44, 55));
+  margin: 5px;
+  width: 30%;
+  padding-right: 20px;
+  border-radius: 15px;
 }
