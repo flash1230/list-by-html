@@ -19,7 +19,7 @@ function createListElement() {
 	input.value = "";
 	let doneButton=document.createElement("button");
 	let deleteButton=document.createElement("button");
-	doneButton.appendChild(document.createTextNode("Done"));
+	doneButton.appendChild(document.createTextNode("Completed"));
 	doneButton.classList.add("buttonp");
 	deleteButton.appendChild(document.createTextNode("Remove"));
 	deleteButton.classList.add("buttonp");
